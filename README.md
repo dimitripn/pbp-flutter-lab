@@ -71,6 +71,11 @@
 **5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.**
 >Berikut cara saya mengimplementasikan tugas ini:
 >
+>1. Membuat Drawer dengan routing ke counter_7, form, show_budget
+>2. Membuat model Budget
+>3. Membuat form untuk mendapatkan judul, nominal, jenis, dan tanggal dari user
+>4. Memasukkan data yang telah didapatkan dari form ke dalam list yang berisi Budget
+>5. Membuat halaman show_budget untuk menampilkan data yang telah dimasukkan ke dalam list
 
 
 ##### _Dimitri Prima Nugraha | 2106750396 | PBP-F_
