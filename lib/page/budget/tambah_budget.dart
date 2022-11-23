@@ -1,7 +1,6 @@
-import 'package:counter_7/drawer.dart';
+import 'package:counter_7/widget/drawer.dart';
 import 'show_budget.dart';
 import 'package:flutter/material.dart';
-import 'main.dart';
 
 class Budget {
   late String judul;

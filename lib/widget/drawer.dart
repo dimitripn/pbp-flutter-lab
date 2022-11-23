@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'show_budget.dart';
-import 'tambah_budget.dart';
+import 'package:counter_7/page/watchlist/mywatchlist.dart';
+
+import '../main.dart';
+import '../page/budget/show_budget.dart';
+import '../page/budget/tambah_budget.dart';
 
 class ScfDrawer extends StatelessWidget {
   const ScfDrawer({
@@ -43,6 +45,16 @@ class ScfDrawer extends StatelessWidget {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(builder: (context) => const MyBudgetPage()),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text('My Watch List'),
+            onTap: () {
+              // Route menu ke halaman form
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => const WatchList()),
               );
             },
           ),
