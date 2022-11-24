@@ -19,7 +19,7 @@ class WatchList {
   bool watched;
   String title;
   int rating;
-  int releaseDate;
+  String releaseDate;
   String review;
 
   factory WatchList.fromJson(Map<String, dynamic> json) => WatchList(

@@ -77,5 +77,22 @@
 >4. Memasukkan data yang telah didapatkan dari form ke dalam list yang berisi Budget
 >5. Membuat halaman show_budget untuk menampilkan data yang telah dimasukkan ke dalam list
 
+# Tugas 9
+
+**1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?**
+>Ya, kita bisa melakukan pengambilan data JSON tanpa membuat model terlebih dahulu. Hal ini tidak lebih baik daripada membuat model sebelum melakukan pengambilan data JSON karena kita tidak tahu apakah value-value dari item tersebut dynamic atau tidak.
+
+**2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.**
+
+**3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.**
+>>1. Spesifikasikan dahulu model yang akan digunakan untuk menampung data dari json.
+>>2. Membuat fungsi untuk melakukan fetch data untuk mengiterasi tiap data dari json.
+>>3. Data tersebut diambil melalui request URL yang diinginkan dan mengembalikan sebuah response.
+>>4. Response tersebut diubah menjadi Dart object dengan menggunakan `jsonDecode()`.
+>>5. Setiap object akan dilakukan loop dan disimpan ke dalam list.
+>>6. Lalu iterasi dari list tersebut akan digunakan untuk menampilkan data pada flutter.
+
+**4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.**
+
 
 ##### _Dimitri Prima Nugraha | 2106750396 | PBP-F_

@@ -21,9 +21,12 @@ Future<List<WatchList>> fetchToDo() async {
   if (WatchList.dataWatchList.isEmpty) {
     for (var d in data) {
       if (d != null) {
-        print(d);
+        //print(d);
         WatchList.dataWatchList.add(WatchList.fromJson(d));
       }
+    }
+    for (var d in WatchList.dataWatchList) {
+      print(d.toString());
     }
   }
 
