@@ -83,6 +83,11 @@
 >Ya, kita bisa melakukan pengambilan data JSON tanpa membuat model terlebih dahulu. Hal ini tidak lebih baik daripada membuat model sebelum melakukan pengambilan data JSON karena kita tidak tahu apakah value-value dari item tersebut dynamic atau tidak.
 
 **2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.**
+>Widget yang saya gunakan pada _project_ kali ini adalah:
+>
+>1. Checkbox: Widget yang berfungsi untuk membuat checkbox yang memiliki suatu event onChange.
+>2. Expanded: Widget yang berfungsi untuk membuat text tidak overflow.
+>3. FutureBuilder: Widget yang berfungsi untuk membuat widget berdasarkan snapshot yang diambil dari Future.
 
 **3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.**
 >>1. Spesifikasikan dahulu model yang akan digunakan untuk menampung data dari json.
@@ -93,6 +98,14 @@
 >>6. Lalu iterasi dari list tersebut akan digunakan untuk menampilkan data pada flutter.
 
 **4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.**
+>Berikut cara saya mengimplementasikan tugas ini:
+>
+>1. Menambahkan navigasi ke mywatchlist pada drawer
+>2. Menambahkan depedency http
+>3. Membuat model untuk data json
+>4. Membuat function untuk mengambil data json
+>5. Menampilkan data dalam bentuk inkwell
+>6. Membuat halaman detail untuk watchlist
 
 
 ##### _Dimitri Prima Nugraha | 2106750396 | PBP-F_
