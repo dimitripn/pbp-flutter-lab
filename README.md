@@ -90,12 +90,12 @@
 >3. FutureBuilder: Widget yang berfungsi untuk membuat widget berdasarkan snapshot yang diambil dari Future.
 
 **3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.**
->>1. Spesifikasikan dahulu model yang akan digunakan untuk menampung data dari json.
->>2. Membuat fungsi untuk melakukan fetch data untuk mengiterasi tiap data dari json.
->>3. Data tersebut diambil melalui request URL yang diinginkan dan mengembalikan sebuah response.
->>4. Response tersebut diubah menjadi Dart object dengan menggunakan `jsonDecode()`.
->>5. Setiap object akan dilakukan loop dan disimpan ke dalam list.
->>6. Lalu iterasi dari list tersebut akan digunakan untuk menampilkan data pada flutter.
+>1. Spesifikasikan dahulu model yang akan digunakan untuk menampung data dari json.
+>2. Membuat fungsi untuk melakukan fetch data untuk mengiterasi tiap data dari json.
+>3. Data tersebut diambil melalui request URL yang diinginkan dan mengembalikan sebuah response.
+>4. Response tersebut diubah menjadi Dart object dengan menggunakan `jsonDecode()`.
+>5. Setiap object akan dilakukan loop dan disimpan ke dalam list.
+>6. Lalu iterasi dari list tersebut akan digunakan untuk menampilkan data pada flutter.
 
 **4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.**
 >Berikut cara saya mengimplementasikan tugas ini:
